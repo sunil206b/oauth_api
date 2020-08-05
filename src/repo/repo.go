@@ -7,4 +7,6 @@ import (
 
 type ILoginRepo interface {
 	GetById(string) (*model.AccessToken, *errors.RestErr)
+	CreateToken(*model.AccessToken) *errors.RestErr
+	UpdateExpiration(*model.AccessToken) *errors.RestErr
 }

@@ -8,4 +8,5 @@ import (
 func mapUrl(db *sql.DB) {
 	loginHandler := controller.NewLoginController(db)
 	router.GET("/login/access_token/:access_token", loginHandler.GetById)
+	router.POST("/login/access_token", loginHandler.CreateToken)
 }
