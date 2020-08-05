@@ -5,7 +5,7 @@ import (
 	"github.com/gin-gonic/gin"
 	"github.com/sunil206b/oauth_api/src/dto"
 	"github.com/sunil206b/oauth_api/src/service"
-	"github.com/sunil206b/oauth_api/src/utils/errors"
+	"github.com/sunil206b/store_utils_go/errors"
 	"net/http"
 	"strings"
 )

@@ -3,7 +3,7 @@ package service
 import (
 	"github.com/sunil206b/oauth_api/src/dto"
 	"github.com/sunil206b/oauth_api/src/model"
-	"github.com/sunil206b/oauth_api/src/utils/errors"
+	"github.com/sunil206b/store_utils_go/errors"
 )
 
 type ILoginService interface {

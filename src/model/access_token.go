@@ -2,7 +2,7 @@ package model
 
 import (
 	"fmt"
-	"github.com/sunil206b/oauth_api/src/utils/errors"
+	"github.com/sunil206b/store_utils_go/errors"
 	"github.com/sunil206b/users_api/utils/crypt"
 	"strings"
 	"time"
